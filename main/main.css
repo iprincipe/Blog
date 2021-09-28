@@ -1,0 +1,97 @@
+@import "../font.css";
+@import "content.css";
+@import "feature.css";
+
+/* Mobile*/
+.container{
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto fit-content fit-content 100px;
+  grid-template-areas:
+  "hd"
+  "fe"
+  "main"
+  "ft";
+  background: #Abe3c8;
+}
+
+.header{
+  grid-area:hd;
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content min-content;
+  text-align: center;
+  height: min-content;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4ead7f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  font-family: "DisposableDroid BB";
+  font-size: 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #3f8c67;
+}
+
+.feature{
+  grid-area: fe;
+  text-align: center;
+  display:grid;
+  margin: 25px auto;
+  padding: 1%;
+  width: auto;
+  height: min-content;
+  grid-template-columns: 100%;
+  grid-template-rows: fit-content fit-content;
+}
+
+.content{
+  grid-area: main;
+  display:grid;
+  margin: 25px auto;
+  padding: 5px;
+  height: fit-content;
+  width: fit-content;
+  grid-template-columns: 100%;
+  grid-template-rows: fit-content fit-content;
+  background: #4ead7f;
+}
+
+.footer{
+  grid-area: ft;
+  padding: 1%;
+  font-size: 12px;
+  background: #4EAD7F;
+}
+
+/* If Screen Is Wide Enough */
+@media(min-width:900px){
+.container{
+      display:grid;
+      grid-template-columns: repeat(8,1fr);
+      grid-template-rows: 150px min-content fit-content 100px;
+      background: #abe3c8;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "fe fe fe fe fe fe fe fe"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+  }
+
+}

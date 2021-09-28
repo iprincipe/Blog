@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "DisposableDroid BB";
+  src: url(Font/Disposable_BB/disposabledroidbb-webfont.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DisposableDroid BB";
+  src: url(Font/Disposable_BB/disposabledroidbb_bld-webfont.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "DisposableDroid BB";
+  src: url(Font/Disposable_BB/disposabledroidbb_ital-webfont.woff);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DisposableDroid BB";
+  src: url(Font/Disposable_BB/disposabledroidbb_bldital-webfont.woff);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Armata';
+  src: url(https://fonts.googleapis.com/css?family=Armata);
+}
+
+h1{
+  font-family: "DisposableDroid BB";
+  font-size: 48px;
+}
+
+h2{
+  font-family: "DisposableDroid BB";
+  font-size: 36px;
+}
+
+h3{
+  font-family: "DisposableDroid BB";
+  font-size: 30px;
+}
+
+h4{
+  font-family: "DisposableDroid BB";
+  font-size: 24px;
+}
+
+h5{
+  font-family: "DisposableDroid BB";
+  font-size: 18px;
+}
+
+p{
+  font-family: 'Armata';
+}
+
+h5.type{
+  font-style: italic;
+}
+
+h5.level{
+  text-align: right;
+}

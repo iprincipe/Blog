@@ -1,0 +1,50 @@
+.newpost{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+  height: auto;
+  background: #f5f5dc;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  /*border: 2px solid red;*/
+}
+
+.newpost:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 70%;
+  /*border: 2px solid blue;*/
+}
+
+#name{
+  margin-bottom: -6px;
+}
+
+#recipetype{
+  margin-bottom: -6px;
+}
+
+.button{
+  align-self: flex-end;
+  background-color: #4ead7f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "DisposableDroid BB";
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
